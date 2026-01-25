@@ -10,7 +10,7 @@ function Dashboard() {
         <div className="absolute inset-0">
           <HexagonBackground />
         </div>
-          {/* <Header /> */}
+          <Header />
           <FloatingNavigation />
         <div className="relative mt-50">
           <MainContent />

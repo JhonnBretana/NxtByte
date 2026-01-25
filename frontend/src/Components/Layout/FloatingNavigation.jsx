@@ -19,7 +19,9 @@ const FloatingNavigation = () => {
             className="flex group relative items-center justify-center w-20 h-10 rounded-full text-slate-200 hover:bg-white/20 hover:text-blue-300 transition-all duration-300 hover:scale-110"
             title={item.label}
           >
-            <span className="text-lg">{item.icon}</span>
+            <span className="text-lg group-hover:scale-205 transition-transform duration-300">
+              {item.icon}
+            </span>
             <span
               className="absolute bottom-full mb-4 px-3 py-1 bg-white/10 backdrop-blur-md border border-white/20 text-white text-sm rounded-md whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
               style={{ fontFamily: "Montserrat, sans-serif" }}
